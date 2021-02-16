@@ -1,0 +1,33 @@
+.carousel {
+    top: 25px;
+}
+
+.panel-menu{
+    border: 1px solid #cdcccf;
+    background-color: white;
+    margin-top: 10px !important;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 1px 1px #cdcccf;
+    z-index: 1;
+    position: relative;
+}
+
+.panel-menu img{
+    width: 42px;
+    height: 42px;
+}
+
+@media (min-width:992px){
+    .carousel {
+        top: 90px;
+    }
+    .panel-menu{
+        border: 1px solid #cdcccf;
+        background-color: #fff;
+        margin-top: 30px !important;
+        border-radius: 2px 2px 2px 2px;
+        height: 100px;
+        z-index: 1;
+        position: relative;
+    }
+}

@@ -6,6 +6,6 @@ class Parent_Controller extends CI_Controller {
 	 
 	public function __construct(){
 		parent::__construct(); 
-		$this->data['judul'] = 'Tenda Ranty Pesta | Tenda event | Tenda Pernikahan';
+		$this->data['judul'] = 'Umrohku.com | Jembatan Mudah Menuju Baitullah';
 	}
 }

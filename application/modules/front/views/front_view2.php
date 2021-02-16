@@ -577,7 +577,7 @@ date_default_timezone_set("Asia/Jakarta");
       <div class="row">
         <nav id="filter" class="col-md-12 text-center">
           <ul>
-            <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+            <li><a href="#" class="current btn- btn-small" data-filter="*">All</a></li>
             <?php
             foreach ($cat_foto as $keys => $values) {
               echo '<li><a href="#" class="btn-theme btn-small" data-filter=".'.$values->id.'">'.$values->deskripsi.'</a></li>';

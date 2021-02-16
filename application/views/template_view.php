@@ -88,7 +88,7 @@
 	 
 </head>
 
-<body class="theme-red">
+<body class="theme-blue">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -142,73 +142,49 @@
                 
 				 
 					<ul class="list">
-					<!-- <li>
+					<li>
                         <a href="<?php echo base_url('dashboard'); ?>">
                             <i class="material-icons">home</i>
                             <span>Home  </span>
                         </a>
                     </li> 
-                    <li class="header">Menu Master</li> 
-                    <li>
-                        <a href="<?php echo base_url('customer'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Customer</span>
-                        </a>
-                    </li>  -->
+                  
                     <li>
                         <a href="<?php echo base_url('about'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>About</span>
+                            <span>Tentang</span>
                         </a>
                     </li> 
                     <li>
                         <a href="<?php echo base_url('cat_pricelist'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>Kategori Pricelist Item</span>
+                            <span>Promo</span>
                         </a>
                     </li> 
                     <li>
                         <a href="<?php echo base_url('price_list_item'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>Pricelist Item</span>
+                            <span>Paket Umroh</span>
                         </a>
                     </li> 
                     <li>
                         <a href="<?php echo base_url('price_list_package'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>Pricelist Package</span>
+                            <span>Maskapai</span>
                         </a>
                     </li> 
                     <li>
                         <a href="<?php echo base_url('client'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>Client</span>
-                        </a>
-                    </li> 
-                     <li>
-                        <a href="<?php echo base_url('news'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>News</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('googlemaps'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Google Maps</span>
+                            <span>Artikel</span>
                         </a>
                     </li>  
                     <li>
-                        <a href="<?php echo base_url('cat_foto'); ?>">
+                        <a href="<?php echo base_url('googlemaps'); ?>">
                            <i class="material-icons">dns</i>
-                            <span>Kategori Foto</span>
+                            <span>Maps</span>
                         </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('foto'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Foto</span>
-                        </a>
-                    </li> 
+                    </li>  
                     <li>
                         <a href="<?php echo base_url('slideshow'); ?>">
                            <i class="material-icons">dns</i>
@@ -221,83 +197,13 @@
                             <span>Manajemen User</span>
                         </a>
                     </li> 
-                   <!--  <li>
-                        <a href="<?php echo base_url('user'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Social Media</span>
-                        </a>
-                    </li>  -->
+                   
                     <li>
                         <a href="<?php echo base_url(); ?>" target="_blank">
                            <i class="material-icons">dns</i>
                             <span>Pratinjau Website</span>
                         </a>
-                    </li> 
-                    <!-- <li>
-                        <a href="<?php echo base_url('sales'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Sales</span>
-                        </a>
-                    </li>
-                     <li>
-                        <a href="<?php echo base_url('admin_pppu'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Admin PPPU</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">dns</i>
-                            <span>User</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a href="<?php echo base_url('akun_sales'); ?>">Akun Sales</a>
-                            </li>
-                            <li>
-                                 <a href="<?php echo base_url('akun_admin_pppu'); ?>">Akun Admin PPPU</a>
-                            </li> 
-                        </ul>
-                    </li>
-                    <li class="header">Menu Transaksi</li>
-                    <li>
-                        <a href="<?php echo base_url('booking_fee'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>Booking Fee</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('pu'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>PU</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('validasi_pppu'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>Validasi P3U</span>
-                        </a>
-                    </li> 
-                      <li>
-                        <a href="<?php echo base_url('booking_fee'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>Refund</span>
-                        </a>
-                    </li> 
-                    <li>
-					<li class="header">Laporan</li>
-                    <li>
-                        <a href="<?php echo base_url('closing'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>Report Closing</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('refund'); ?>">
-                            <i class="material-icons">dns</i>
-                            <span>Report Refund</span>
-                        </a>
-                    </li>   -->
+                    </li>  
 					</ul>
 					
 				  
@@ -307,7 +213,7 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2018 <a href="javascript:void(0);"> Ranty Pesta </a>
+                    &copy; 2020 <a href="javascript:void(0);"> Umrohku.com </a>
                 </div>
             </div>
             <!-- #Footer -->

@@ -9,9 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Ranty Pesta Web Administrator</title>
+    <title>Umrohku.com Web Administrator</title>
     <!-- Favicon-->
-    <link rel="icon" href="<?php echo base_url('assets/images/rp_logo.png'); ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url('assets/images/umrohkulog.png'); ?>" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     
 </head>
-<body class="login-page">
+<body class="login-page" style="background-color:blue;">
     <div class="login-box">
         <div class="logo">
             <a href="javascript:void(0);">LOGIN AREA </a>
@@ -46,10 +46,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="card">
             <div class="body">
                 <div align="center">
-                <img src="<?php echo base_url('assets/images/rp_logo.png'); ?>" class="img-responsive" width="100" height="100">
+                <img src="<?php echo base_url('assets/images/umrohkulog.png'); ?>" class="img-responsive" width="100" height="100">
                 </div>
                 <form id="sign_in" action="<?php echo base_url('login/autentikasi'); ?>" method="POST" enctype="multipart/form-data">
-                    <div class="msg"> Ranty Pesta Web Administrator </div>
+                     
                     <div class="input-group">
                         <span class="input-group-addon">
                             <i class="material-icons">person</i>
@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					 
                     <div class="row"> 
                         <div class="col-lg-12">
-                            <button class="btn btn-block bg-red waves-effect" type="submit">Masuk</button>
+                            <button class="btn btn-block bg-blue waves-effect" type="submit">Masuk</button>
                         </div>
                     </div>
                     
