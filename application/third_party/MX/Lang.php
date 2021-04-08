@@ -13,7 +13,7 @@
  * Install this file as application/third_party/MX/Lang.php
  *
  * @copyright	Copyright (c) 2011 Wiredesignz
- * @version 	5.5
+ * @version 	5.4
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,13 +32,19 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
+ * 
+ * This is a forked version of the original Modular Extensions - HMVC library to
+ * support better module routing, and speed optimizations. These additional
+ * changes were made by:
+ * 
+ * @author		Brian Wozeniak
+ * @copyright	Copyright (c) 1998-2013, Unmelted, LLC
  **/
 class MX_Lang extends CI_Lang
 {
-	public function load($langfile, $lang = '', $return = FALSE, $add_suffix = TRUE, $alt_path = '', $_module = '')	
-	{
-		if (is_array($langfile)) 
-		{
+	public function load($langfile = array(), $lang = '', $return = FALSE, $add_suffix = TRUE, $alt_path = '', $_module = '')	{
+		
+		if (is_array($langfile)) {
 			foreach($langfile as $_lang) $this->load($_lang);
 			return $this->language;
 		}
@@ -50,17 +56,16 @@ class MX_Lang extends CI_Lang
 			return $this->language;
 
 		$_module OR $_module = CI::$APP->router->fetch_module();
-		list($path, $_langfile) = Modules::find($langfile.'_lang', $_module, 'language/'.$idiom.'/');
+		$_module_location = CI::$APP->router->fetch_location();
+		list($path, $_langfile) = Modules::find($langfile.'_lang', $_module, 'language/'.$idiom.'/', $_module_location);
 
-		if ($path === FALSE) 
-		{
+		if ($path === FALSE) {
+			
 			if ($lang = parent::load($langfile, $lang, $return, $add_suffix, $alt_path)) return $lang;
 		
-		} 
-		else 
-		{
-			if($lang = Modules::load_file($_langfile, $path, 'lang'))
-			{
+		} else {
+
+			if($lang = Modules::load_file($_langfile, $path, 'lang')) {
 				if ($return) return $lang;
 				$this->language = array_merge($this->language, $lang);
 				$this->is_loaded[] = $langfile.'_lang'.EXT;

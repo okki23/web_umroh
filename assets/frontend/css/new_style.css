@@ -1,0 +1,488 @@
+.holderCircle { width: 700px; height: 700px; border-radius: 100%; margin-right: auto; margin-left: auto; position: relative; }
+
+
+.dotCircle { width: 100%; height: 100%; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; border-radius: 100%; z-index: 20; }
+.dotCircle  .itemDot { display: block; width: 90px; height: 90px; position: absolute; background: #ffffff; color: #106EEA; border-radius: 20px; text-align: center; line-height: 80px; font-size: 30px; z-index: 3; cursor: pointer; border: 2px solid #e6e6e6; }
+.dotCircle  .itemDot .forActive { width: 56px; height: 56px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none; }
+.dotCircle  .itemDot .forActive::after { content: ''; width: 5px; height: 5px; border: 3px solid #106EEA; bottom: -31px; left: -14px; filter: blur(1px); position: absolute; border-radius: 100%; }
+.dotCircle  .itemDot .forActive::before { content: ''; width: 6px; height: 6px; filter: blur(5px); top: -15px; position: absolute; transform: rotate(-45deg); border: 6px solid #1AA8E7; right: -39px; }
+.dotCircle  .itemDot.active .forActive { display: block; }
+.round { position: absolute; left: 40px; top: 45px; width: 610px; height: 610px; border: 2px dotted #1AA8E7; border-radius: 100%; -webkit-animation: rotation 100s infinite linear; }
+.dotCircle .itemDot:hover, .dotCircle .itemDot.active { color: #ffffff; transition: 0.5s;   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */ background: #7d4ac7; /* Old browsers */ background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */ border: 2px solid #ffffff; -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13); -moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13); box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13); }
+.dotCircle .itemDot { font-size: 50px; }
+.contentCircle { width: 350px; border-radius: 100%; color: #222222; position: relative; top: 250px; left: 50%; transform: translate(-50%, -50%); }
+.contentCircle .CirItem { border-radius: 100%; color: #222222; position: absolute; text-align: center; bottom: 0; left: 0; opacity: 0; transform: scale(0); transition: 0.5s; font-size: 15px; width: 100%; height: 100%; top: 0; right: 0; margin: auto; line-height: 250px; }
+.CirItem.active { z-index: 1; opacity: 1; transform: scale(1); transition: 0.5s; }
+.contentCircle .CirItem i { font-size: 180px; position: absolute; top: 0; left: 50%; margin-left: -90px; color: #000000; opacity: 0.1; }
+@media only screen and (min-width:300px) and (max-width:599px) {
+	.holderCircle { width: 300px; height: 300px; margin: 110px auto; }
+	.holderCircle::after { width: 100%; height: 100%; }
+	.dotCircle { width: 100%; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
+}
+@media only screen and (min-width:600px) and (max-width:767px) { }
+@media only screen and (min-width:768px) and (max-width:991px) { }
+@media only screen and (min-width:992px) and (max-width:1199px) { }
+@media only screen and (min-width:1200px) and (max-width:1499px) { }
+  .title-box .title { font-weight: 400; letter-spacing: 1px; position: relative; z-index: -1; }
+        .title-box span { text-shadow: 0 10px 10px rgba(0, 0, 0, .15); font-weight: 800; color: #640178; }
+        .title-box p {font-size: 15px; line-height: 2em; }
+
+
+
+  .tours {
+  display: flex;
+  padding: 0;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+}
+.tours > .tourcard {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  flex: 0 1 360px;
+  margin: 15px;
+  padding: 0;
+}
+.tours > .tourcard:hover {
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  cursor: pointer;
+}
+.tours > .tourcard figure {
+    margin: 0;
+    padding: 0;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.tourpic {
+  background: #444;
+  position: relative;
+}
+.tourbtn {
+    margin: 0;
+    padding: 0;
+}
+.tourbtn:after {
+    clear: both;
+}
+.tours > .tourcard figure .tourpic img {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;    
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  opacity: .50;
+}
+.tours > .tourcard:hover figure .tourpic img {
+    opacity: 0.9;
+}
+.tours > .tourcard figure .tourpic .tourcat {
+  color: #fff;
+  font-size: .8em;
+  padding: 3px 5px;
+  position: absolute;
+  right: 15px;
+  text-transform: uppercase;
+  bottom: 15px;
+}
+.tours>.tourcard figure .tourpic .tourday {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .8em;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  padding: 3px 5px;
+}
+.tours > .tourcard figure .tourpic .tourday.hot {
+  background: #000;
+  background: red;
+  background: -webkit-linear-gradient(0deg,red,orange);
+  background: linear-gradient(90deg,red,orange);
+  background-size: 200% 200%;
+  -webkit-animation: hot 10s ease infinite;
+  -moz-animation: hot 10s ease infinite;
+  -o-animation: hot 10s ease infinite;
+  animation: hot 10s ease infinite;
+}
+.tours > .tourcard figure .tourbtn {
+  background: transparent;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  align-content: center;
+}
+.tours > .tourcard figure .tourbtn a {
+  flex: 1;
+}
+.tours > .tourcard figure figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  margin: 0 0 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  color: white;
+}
+figcaption h3 a {
+    text-decoration: none;
+    color: white;
+}
+.description {
+    opacity: 0;
+    display: none;
+}
+.tourprice {
+    opacity: 0;
+    display: none;
+    font-size: .8em;
+}
+.currency {
+    font-weight: 300;
+}
+.price {
+    font-size: 2em;
+    font-weight: 300;
+}
+.tourcard:hover figure figcaption .description,
+.tourcard:hover figure figcaption .tourprice {
+    display: block;
+    opacity: 1;
+}
+ 
+section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}
+
+    .pt-100 {
+	padding-top: 100px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.services-area {
+  background-color: #f6f6f6;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+	color: #777;
+	font-size: 16px;
+}
+.section-title h4 {
+	text-transform: capitalize;
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.section-title h4:before {
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 2px;
+	background-color: #106EEA;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+.section-title h4:after {
+	position: absolute;
+	background-color: #106EEA;
+	content: "";
+	width: 10px;
+	height: 10px;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -5px;
+	border-radius: 50%;
+}
+.single-service {
+	border: 1px solid #eee;
+	padding: 30px 10px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+} 
+.single-service i.fa {
+  width: 60px;
+  height: 60px;
+  background-color: #106EEA;
+  font-size: 25px;
+  color: #fff;
+  line-height: 60px;
+  text-align:center;
+  margin-bottom:20px;
+}
+.single-service i.fa {
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.single-service:hover i.fa {
+	border-radius: 50%;
+}
+.single-service h4 {
+	text-transform: capitalize;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+ 
+.post-slide{
+    margin: 0 15px;
+    background: #fff;
+    border-bottom: 1px solid #dedde1;
+}
+.demo
+{
+	padding: 100px 0;
+}
+.heading-title
+{
+	margin-bottom: 100px;
+}
+.post-slide .post-header{
+    padding: 15px 20px;
+}
+
+.post-slide .title{
+    margin-bottom: 5px;
+}
+
+.post-slide .title a{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+
+.post-slide .title a:hover{
+    color: #fd6058;
+    text-decoration: none;
+}
+
+.post-slide .post-bar{
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.post-slide .post-bar li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #808080;
+}
+
+.post-slide .post-bar li a{
+    font-size: 15px;
+    color: #808080;
+    text-transform: capitalize;
+}
+
+.post-slide .post-bar li a:hover{
+    text-decoration: none;
+    color: #fd6058;
+}
+
+.post-slide .post-bar li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.post-slide .post-bar li i,
+.post-slide .post-bar li img{
+    margin-right: 5px;
+}
+
+.post-slide .pic{
+    overflow: hidden;
+    position: relative;
+}
+
+.post-slide .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0);
+    transition: all 0.9s ease 0s;
+}
+
+.post-slide:hover .pic:after{
+    background: rgba(255,255,255,0.2);
+}
+
+.post-slide .pic img{
+    width: 100%;
+    height: auto;
+    transform: rotate(0deg) scale(1,1);
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.post-slide:hover .pic img{
+    transform: rotate(10deg) scale(1.5,1.5);
+}
+
+.post-slide .post-category{
+    padding: 5px 15px;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fd6058;
+    z-index: 1;
+}
+
+.post-slide .post-category li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.post-slide .post-category li:after{
+    content: " ,";
+    color: #fff;
+}
+
+.post-slide .post-category li:last-child:after{
+    content: "";
+}
+
+.post-slide .post-category li a{
+    color: #fff;
+}
+
+.post-slide .post-category li a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+.post-slide .post-description{
+    font-size: 16px;
+    color: #808080;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .post-header .post-bar li{
+        margin-right: 5px;
+    }
+}
+
+
+/*********************** Demo - 20 *******************/
+.box20{position:relative}
+.box20:after,.box20:before{position:absolute;content:""}
+.box20:before{width:80%;height:220%;background:#ff402a;top:-50%;left:-100%;z-index:1;transform:rotate(25deg);transform-origin:center top 0;transition:all .5s ease 0s}
+.box20:hover:before{left:10%}
+.box20:after{width:55%;height:175%;background-color:rgba(0,0,0,.8);bottom:-1000%;left:53%;transform:rotate(-33deg);transform-origin:center bottom 0;transition:all .8s ease 0s}
+.box20 .box-content,.box20 .icon{width:100%;padding:0 20px;position:absolute;left:0;z-index:2;transition:all 1.1s ease 0s}
+.box20:hover:after{bottom:-70%}
+.box20 img{width:100%;height:auto}
+.box20 .box-content{top:-100%;color:#fff}
+.box20:hover .box-content{top:30px}
+.box20 .title{font-size:24px;margin:0}
+.box20 .icon li a,.box20 .post{display:inline-block;font-size:14px}
+.box20 .post{margin-top:5px}
+.box20 .icon{list-style:none;margin:0;bottom:-100%}
+.box20:hover .icon{bottom:25px}
+.box20 .icon li{display:inline-block}
+.box20 .icon li a{width:35px;height:35px;line-height:35px;background:#444;border-radius:50%;margin:0 3px;color:#fff;text-align:center;transition:all .5s ease 0s}
+.box20 .icon li a:hover{background:#fff;color:#ff402a}
+@media only screen and (max-width:990px){.box20{margin-bottom:30px}
+}
+@media only screen and (max-width:479px){.box20 .title{font-size:20px}
+}
+.post-slide2{margin:0 15px;box-shadow:0 1px 2px rgba(43,59,93,.3);margin-bottom:2em}
+.post-slide2 .post-img{overflow:hidden}
+.post-slide2 .post-img img{width:100%;height:auto;transform:scale(1);transition:all 1s ease-in-out 0s}
+.post-slide2:hover .post-img img{transform:scale(1.08)}
+.post-slide2 .post-content{background:#fff;padding:20px}
+.post-slide2 .post-title{font-size:17px;font-weight:600;margin-top:0;text-transform:capitalize}
+.post-slide2 .post-title a{display:inline-block;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-title a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .post-description{font-size:15px;color:#676767;line-height:24px;margin-bottom:14px}
+.post-slide2 .post-bar{padding:0;margin-bottom:15px;list-style:none}
+.post-slide2 .post-bar li{color:#676767;padding:2px 0}
+.post-slide2 .post-bar li i{margin-right:5px}
+.post-slide2 .post-bar li a{display:inline-block;font-size:12px;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-bar li a:after{content:","}
+.post-slide2 .post-bar li a:last-child:after{content:""}
+.post-slide2 .post-bar li a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .read-more{display:inline-block;padding:10px 15px;font-size:14px;font-weight:700;color:#fff;background:#1F85DE;border-bottom-right-radius:10px;text-transform:capitalize;transition:all .3s linear}
+.post-slide2 .read-more:hover{background:#333;text-decoration:none}

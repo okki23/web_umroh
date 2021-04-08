@@ -12,8 +12,8 @@
  *
  * Install this file as application/third_party/MX/Config.php
  *
- * @copyright	Copyright (c) 2015 Wiredesignz
- * @version 	5.5
+ * @copyright	Copyright (c) 2011 Wiredesignz
+ * @version 	5.4
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,44 +32,50 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
+ * 
+ * This is a forked version of the original Modular Extensions - HMVC library to
+ * support better module routing, and speed optimizations. These additional
+ * changes were made by:
+ * 
+ * @author		Brian Wozeniak
+ * @copyright	Copyright (c) 1998-2013, Unmelted, LLC
  **/
 class MX_Config extends CI_Config 
 {	
-	public function load($file = '', $use_sections = FALSE, $fail_gracefully = FALSE, $_module = '') 
-	{
+	public function load($file = 'config', $use_sections = FALSE, $fail_gracefully = FALSE, $_module = '') {
+		
 		if (in_array($file, $this->is_loaded, TRUE)) return $this->item($file);
 
 		$_module OR $_module = CI::$APP->router->fetch_module();
+		$_module_location = CI::$APP->router->fetch_location();
+		
 		list($path, $file) = Modules::find($file, $_module, 'config/');
 		
-		if ($path === FALSE)
-		{
+		if ($path === FALSE) {
 			parent::load($file, $use_sections, $fail_gracefully);					
 			return $this->item($file);
-		}  
+		}
 		
-		if ($config = Modules::load_file($file, $path, 'config'))
-		{
+		if (defined('ENVIRONMENT') AND file_exists($path.ENVIRONMENT.'/'.$file.'.php')) {
+			$path = $path.ENVIRONMENT.'/';
+		}
+		
+		if ($config = Modules::load_file($file, $path, 'config')) {
+			
 			/* reference to the config array */
 			$current_config =& $this->config;
 
-			if ($use_sections === TRUE)	
-			{
-				if (isset($current_config[$file])) 
-				{
+			if ($use_sections === TRUE)	{
+				
+				if (isset($current_config[$file])) {
 					$current_config[$file] = array_merge($current_config[$file], $config);
-				} 
-				else 
-				{
+				} else {
 					$current_config[$file] = $config;
 				}
 				
-			} 
-			else 
-			{
+			} else {
 				$current_config = array_merge($current_config, $config);
 			}
-
 			$this->is_loaded[] = $file;
 			unset($config);
 			return $this->item($file);
