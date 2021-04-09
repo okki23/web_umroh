@@ -3639,6 +3639,7 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
+    top:90px;
   }
   .navbar-right .dropdown-menu-left {
     right: auto;

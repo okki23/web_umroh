@@ -18,10 +18,10 @@ function skinChanger() {
 
         var existTheme = $('.right-sidebar .demo-choose-skin li.active').data('theme');
         $('.right-sidebar .demo-choose-skin li').removeClass('active');
-        $body.removeClass('theme-' + existTheme);
+        $body.removeClass('theme-blue');
         $this.addClass('active');
 
-        $body.addClass('theme-' + $this.data('theme'));
+        $body.addClass('theme-blue');
     });
 }
 
@@ -68,9 +68,9 @@ function setSettingListHeightAndScroll(isFirstTime) {
 //Activate notification and task dropdown on top right menu
 function activateNotificationAndTasksScroll() {
     $('.navbar-right .dropdown-menu .body .menu').slimscroll({
-        height: '254px',
+        height: '35px',
         color: 'rgba(0,0,0,0.5)',
-        size: '4px',
+        size: '10px',
         alwaysVisible: false,
         borderRadius: '0',
         railBorderRadius: '0'

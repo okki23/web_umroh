@@ -33,7 +33,7 @@
         </div>
         <div class="card">
             <div class="body">
-                <form id="sign_in" method="POST"> 
+                <form id="sign_in" method="POST" enctype="multipart/form-data" action="<?php echo base_url('login/authentication'); ?>"> 
                     
                     <div class="input-group">
                         <span class="input-group-addon">
@@ -63,20 +63,20 @@
     </div>
 
     <!-- Jquery Core Js -->
-    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url('assets/backend/plugins/jquery/jquery.min.js')?>"></script>
 
     <!-- Bootstrap Core Js -->
-    <script src="../../plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="<?php echo base_url('assets/backend/plugins/bootstrap/js/bootstrap.js')?>"></script>
 
     <!-- Waves Effect Plugin Js -->
-    <script src="../../plugins/node-waves/waves.js"></script>
+    <script src="<?php echo base_url('assets/backend/plugins/node-waves/waves.js')?>"></script>
 
     <!-- Validation Plugin Js -->
-    <script src="../../plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="<?php echo base_url('assets/backend/plugins/jquery-validation/jquery.validate.js')?>"></script>
 
     <!-- Custom Js -->
-    <script src="../../js/admin.js"></script>
-    <script src="../../js/pages/examples/sign-in.js"></script>
+    <script src="<?php echo base_url('assets/backend/js/admin.js')?>"></script>
+    <script src="<?php echo base_url('assets/backend/js/pages/examples/sign-in.js')?>"></script>
 </body>
 
 </html>
