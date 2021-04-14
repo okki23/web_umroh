@@ -20,8 +20,7 @@ class Login extends CI_Controller {
 		$username = $this->input->post('username');
 		$password = base64_encode($this->input->post('password'));   
 		$auth = $this->db->get_where($this->tablename,array('username'=>$username,'password'=>$password));  
-
-		//if available
+ 		//if available
 		if($auth->num_rows() > 0){
 			$session = $auth->row();
 			 
