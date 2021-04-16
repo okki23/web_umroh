@@ -519,7 +519,7 @@
                 <div class="caption">
                     <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
       
@@ -528,7 +528,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
 
@@ -537,7 +537,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
 
@@ -546,7 +546,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>  
         </div> 
     </div>
@@ -673,8 +673,7 @@
         &nbsp;
         <br>
         &nbsp;
-        <iframe width="700" height="500" src="https://www.youtube.com/embed/ApG9WZAbrws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         
+        <iframe width="700" height="500" src="https://www.youtube.com/embed/rQgLav_9p7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
     </section><!-- End Portfolio Section -->
@@ -861,7 +860,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-				      <img src="<?php echo base_url('assets/frontend/images/promonaik.jpeg')?>" style="width: 100%; height: auto;" alt="">   
+				      <img src="<?php echo base_url('assets/frontend/images/testing.jpg')?>" style="width: 100%; height: auto;" alt="">   
             </div> 
         </div>
     </div>

@@ -147,7 +147,7 @@
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="#"> 
+          <a href="<?php echo base_url('alquran'); ?>"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black; font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Al Quran </span>
           </a>
@@ -519,7 +519,7 @@
                 <div class="caption">
                     <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
       
@@ -528,7 +528,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
 
@@ -537,7 +537,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>
         </div>
 
@@ -546,7 +546,7 @@
                 <div class="caption">
                   <h4>Garuda Indonesia Airlines</h4>
                 </div>
-                <img src="<?php echo base_url('assets/frontend/img/gi_flight.jpg')?>" alt="...">
+                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
             </div>  
         </div> 
     </div>
@@ -673,8 +673,7 @@
         &nbsp;
         <br>
         &nbsp;
-        <iframe width="700" height="500" src="https://www.youtube.com/embed/ApG9WZAbrws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         
+        <iframe width="700" height="500" src="https://www.youtube.com/embed/rQgLav_9p7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
     </section><!-- End Portfolio Section -->
@@ -852,20 +851,7 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-
-  <div id="myModal" class="modal fade">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Promo !!!! </h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-				      <img src="<?php echo base_url('assets/frontend/images/promonaik.jpeg')?>" style="width: 100%; height: auto;" alt="">   
-            </div> 
-        </div>
-    </div>
-</div>
+ 
  
   <div class="elfsight-app-93871956-e1d2-4436-a1f2-cfbbc28886d7"></div>
   <div class="elfsight-app-2d8c698d-2966-4b88-a365-6c4808ed42b6"></div>
@@ -929,9 +915,7 @@
   
     
   $(document).ready(function(){
- 
-    $("#myModal").modal('show');
-    
+  
     var radius = 200;
     var fields = $('.itemDot');
     var container = $('.dotCircle');
