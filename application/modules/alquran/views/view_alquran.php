@@ -32,7 +32,7 @@
   <link href="<?php echo base_url('assets/frontend/css/custom.css')?>" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
- 
+  
   <script data-ad-client="ca-pub-7665677534907559" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
@@ -174,510 +174,31 @@
 
         <div class="section-title">
           
-          <h3>Tentang Umrohku.com </h3>
+          <h3>Alquran </h3>
           <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
         </div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="100">
-            <img src="<?php echo base_url('assets/frontend/img/logoumrohkublank.png')?>" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> -->
-            <!-- <p class="font-italic"> -->
-              <p style="text-align: justify;">
-                Umrohku.com adalah Jembatan Mudah Menuju Baitullah. Perjalanan ke Tanah Suci tidak lagi harus menjadi sekedar impian. Kami membantu Anda mewujudkan niat suci untuk beribadah umrah dan haji dengan biaya yang terjangkau, Praktis, Nyaman serta Khusuk. Amanah Anda kami pegang dengan serius. Melayani sesuai dengan apa yang kami janjikan kepada Anda. Kami paham bahwa semua berbagai hal yang dialami selama perjalanan berpengaruh bagi keseluruhan pengalaman Anda dalam memenuhi panggilan ke rumah suci Allah SWT. Karena itu, kelancaran Anda dalam beribadah adalah hal yang paling utama bagi kami. di Umrohku.com, kami menggunakan aplikasi berbasis teknologi yang memudahkan calon jemaah menjalani proses pendaftaran hingga perjalanan umrah dan haji. dengan begitu, Anda dapat menjalankan ibadah di Tanah Suci dengan nyaman, sampai tiba kembali dengan tenang ke Tanah Air.
-              </p>
-             
-            </p>
+         <div class="row">
+          
+         <div class="table-responsive">
+                               <table class="table table-bordered table-striped table-hover js-basic-example" id="example" >
+  
+                                    <thead>
+                                        <tr>
+                                            <th style="width:10%;">No</th> 
+                                            <th style="width:40%;">Surah</th> 
+                                            <th style="width:40%;">Opsi</th> 
+                                        </tr>
+                                    </thead> 
+                                </table> 
+                            </div>
              
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="services" class="skills">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          
-          <h3>Jasa Layanan Umrohku.com </h3>
-          <p>Umrohku.com memiliki produk dan layanan yang beragam, dan dikemas secara baik untuk memenuhi kebutuhan pelanggan maupun kebutuhan untuk ibadah jamaah dengan berpegang teguh pada prinsip memudahkan dan memberikan kenyamanan dan keamanan.</p>
-        </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-suitcase" aria-hidden="true"></i> 
-                <h4>Biro Perjalanan Resmi Lembaga</h4>
-                <p>perjalanan Umroh dan Haji yang kredibel. Mengantongi Izin Penyelenggara Umroh Resmi dari Kementrian </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-bookmark" aria-hidden="true"></i> 
-                <h4>Amanah dan Aman</h4>
-                <p>Memastikan Anda berangkat tepat waktu sesuai jadwal. Dijamin Uang Kembali jika Anda gagal berangkat </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-diamond" aria-hidden="true"></i> 
-                <h4>Pelayanan Terbaik</h4>
-                <p>Pelayanan cepat, tamah dan terpercaya. Memberikan layanan terbaik untuk kebutuhan umroh dan haji lainnya </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i> 
-                <h4>Profesional</h4>
-                <p>Profesional Memiliki perwakilan di indonesia dan Arab Saudi yang menyiapkan seluruh akomodasi jemaah muali dari hotel, bus, katering dan kebutuhan lainnya </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-money" aria-hidden="true"></i> 
-                <h4>Harga Terbaik</h4>
-                <p>Memberikan harga yang terjangkau dan berkualitas bagi perjalanan umroh dan haji anda yang khusuk </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-service">
-                <i class="fa fa-leanpub" aria-hidden="true"></i> 
-                <h4>Pembimbing Ibadah</h4>
-                <p>Pembimbing Ibadah Komitmen bimbingan ibadan yang amanah sesuai dengan syariat islam mulai dari manasik umroh dan haji hingga perjalanan ibadah. </p>
-              </div>
-            </div>
-
-          </div> 
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="paket_umroh" class="counts">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title"> 
-          <h3> Pilihan Paket Umroh </h3> 
-        </div>
-            <div class="row mb-md-3"> 
-              <div class="col-lg-3"> 
-                  <div class="card shadow-sm border-light mb-3">
-                        <a href="#" class="position-relative">
-                            <img src="<?php echo base_url('assets/frontend/img/mecca.jpg')?>" class="card-img-top" alt="image"> </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h6>Paket Umroh Syari</h6>
-                            </a>
-                            <span class="h6 font-weight-bold"> Mulai Dari <span style="color:#FFCE3B;"> Rp. 28.000.000</span> </span>
-                            <hr>  
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-calendar"></i> Berangkat </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 26 Des 2020 </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-clock-time"></i> Durasi </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 9 Jam </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-5-star-hotel"></i> Hotel   </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6" style="font-size: 12px; color:#FFCE3B;">
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-google-map"></i>  Jalan Dari </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Jakarta </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-airplane"></i> Maskapai  </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Garuda </span>
-                              </div>  
-                            </div> 
-                            <br>
-                            <button type="button" class="btn btn-outline-primary btn-sm btn-block"> Detail </button>
-                        </div>
-                    </div>   
-                </div>  
-                
-                <div class="col-lg-3"> 
-                  <div class="card shadow-sm border-light mb-3">
-                        <a href="#" class="position-relative">
-                            <img src="<?php echo base_url('assets/frontend/img/mecca.jpg')?>" class="card-img-top" alt="image"> </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h6>Paket Umroh Syari</h6>
-                            </a>
-                            <span class="h6 font-weight-bold"> Mulai Dari <span style="color:#FFCE3B;"> Rp. 28.000.000</span> </span>
-                            <hr>  
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-calendar"></i> Berangkat </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 26 Des 2020 </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-clock-time"></i> Durasi </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 9 Jam </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-5-star-hotel"></i> Hotel   </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6" style="font-size: 12px; color:#FFCE3B;">
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-google-map"></i>  Jalan Dari </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Jakarta </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-airplane"></i> Maskapai  </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Garuda </span>
-                              </div>  
-                            </div> 
-                            <br>
-                            <button type="button" class="btn btn-outline-primary btn-sm btn-block"> Detail </button>
-                        </div>
-                    </div>   
-                </div> 
-
-                <div class="col-lg-3"> 
-                  <div class="card shadow-sm border-light mb-3">
-                        <a href="#" class="position-relative">
-                            <img src="<?php echo base_url('assets/frontend/img/mecca.jpg')?>" class="card-img-top" alt="image"> </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h6>Paket Umroh Syari</h6>
-                            </a>
-                            <span class="h6 font-weight-bold"> Mulai Dari <span style="color:#FFCE3B;"> Rp. 28.000.000</span> </span>
-                            <hr>  
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-calendar"></i> Berangkat </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 26 Des 2020 </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-clock-time"></i> Durasi </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 9 Jam </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-5-star-hotel"></i> Hotel   </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6" style="font-size: 12px; color:#FFCE3B;">
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-google-map"></i>  Jalan Dari </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Jakarta </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-airplane"></i> Maskapai  </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Garuda </span>
-                              </div>  
-                            </div> 
-                            <br>
-                            <button type="button" class="btn btn-outline-primary btn-sm btn-block"> Detail </button>
-                        </div>
-                    </div>   
-                </div> 
-
-                <div class="col-lg-3"> 
-                  <div class="card shadow-sm border-light mb-3">
-                        <a href="#" class="position-relative">
-                            <img src="<?php echo base_url('assets/frontend/img/mecca.jpg')?>" class="card-img-top" alt="image"> </a>
-                        <div class="card-body">
-                            <a href="#">
-                                <h6>Paket Umroh Syari</h6>
-                            </a>
-                            <span class="h6 font-weight-bold"> Mulai Dari <span style="color:#FFCE3B;"> Rp. 28.000.000</span> </span>
-                            <hr>  
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-calendar"></i> Berangkat </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 26 Des 2020 </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-clock-time"></i> Durasi </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> 9 Jam </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-5-star-hotel"></i> Hotel   </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6" style="font-size: 12px; color:#FFCE3B;">
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-google-map"></i>  Jalan Dari </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Jakarta </span>
-                              </div>  
-                            </div> 
-                            <div class="row">
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small bold"> <i class="icofont-airplane"></i> Maskapai  </span>
-                              </div>
-                              <div class="col-md-6 col-lg-6">
-                                <span class="h6 small"> Garuda </span>
-                              </div>  
-                            </div> 
-                            <br>
-                            <button type="button" class="btn btn-outline-primary btn-sm btn-block"> Detail </button>
-                        </div>
-                    </div>   
-                </div> 
-             </div>    
-      </div>
-    </section><!-- End Counts Section -->
-
-     
-
-  <!-- ======= Team Section ======= -->
-  <section id="maskapai" class="team section-bg">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title"> 
-        <h3> Maskapai </h3> 
-      </div>
-
-      <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-            <div class="thumbnail">
-                <div class="caption">
-                    <h4>Garuda Indonesia Airlines</h4>
-                </div>
-                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
-            </div>
-        </div>
-      
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-            <div class="thumbnail">
-                <div class="caption">
-                  <h4>Garuda Indonesia Airlines</h4>
-                </div>
-                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
-            </div>
-        </div>
-
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-            <div class="thumbnail">
-                <div class="caption">
-                  <h4>Garuda Indonesia Airlines</h4>
-                </div>
-                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
-            </div>
-        </div>
-
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-            <div class="thumbnail">
-                <div class="caption">
-                  <h4>Garuda Indonesia Airlines</h4>
-                </div>
-                <img src="<?php echo base_url('assets/frontend/img/garuda_indonesia.jpg')?>" alt="...">
-            </div>  
-        </div> 
-    </div>
  
-
-    </div>
-  </section><!-- End Team Section -->
-
-     
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="artikel" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h3>Berita Artikel</h3> 
-        </div>
-         
-        <div class="container">
-         
-          <div class="row">
-              <div class="col-md-12">
-                  <div id="news-slider2" class="owl-carousel">
-                      <div class="post-slide2">
-                          <div class="post-img">
-                              <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-1.jpg" alt=""></a>
-                          </div>
-                          <div class="post-content">
-                              <h3 class="post-title"><a href="#">Latest News Post</a></h3>
-                              <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
-                              </p>
-                              <ul class="post-bar">
-                                  <li><i class="fa fa-calendar"></i> June 5, 2016</li>
-                                  <li>
-                                      <i class="fa fa-folder"></i>
-                                      <a href="#">Mockup</a>
-                                      <a href="#">Graphics</a>
-                                      <a href="#">Flayers</a>
-                                  </li>
-                              </ul>
-                              <a href="#" class="read-more">read more</a>
-                          </div>
-                      </div>
-   
-                      <div class="post-slide2">
-                          <div class="post-img">
-                              <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-2.jpg" alt=""></a>
-                          </div>
-                          <div class="post-content">
-                              <h3 class="post-title"><a href="#">Latest News Post</a></h3>
-                              <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
-                              </p>
-                              <ul class="post-bar">
-                                  <li><i class="fa fa-calendar"></i> June 7, 2016</li>
-                                  <li>
-                                      <i class="fa fa-folder"></i>
-                                      <a href="#">Mockup</a>
-                                      <a href="#">Graphics</a>
-                                      <a href="#">Flayers</a>
-                                  </li>
-                              </ul>
-                              <a href="#" class="read-more">read more</a>
-                          </div>
-                      </div>
-                      
-                      <div class="post-slide2">
-                          <div class="post-img">
-                              <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-3.jpg" alt=""></a>
-                          </div>
-                          <div class="post-content">
-                              <h3 class="post-title"><a href="#">Latest News Post</a></h3>
-                              <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
-                              </p>
-                              <ul class="post-bar">
-                                  <li><i class="fa fa-calendar"></i> June 5, 2016</li>
-                                  <li>
-                                      <i class="fa fa-folder"></i>
-                                      <a href="#">Mockup</a>
-                                      <a href="#">Graphics</a>
-                                      <a href="#">Flayers</a>
-                                  </li>
-                              </ul>
-                              <a href="#" class="read-more">read more</a>
-                          </div>
-                      </div>
-                      
-                      <div class="post-slide2">
-                          <div class="post-img">
-                              <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-4.jpg" alt=""></a>
-                          </div>
-                          <div class="post-content">
-                              <h3 class="post-title"><a href="#">Latest News Post</a></h3>
-                              <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
-                              </p>
-                              <ul class="post-bar">
-                                  <li><i class="fa fa-calendar"></i> June 5, 2016</li>
-                                  <li>
-                                      <i class="fa fa-folder"></i>
-                                      <a href="#">Mockup</a>
-                                      <a href="#">Graphics</a>
-                                      <a href="#">Flayers</a>
-                                  </li>
-                              </ul>
-                              <a href="#" class="read-more">read more</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-     
-      </div>
-      <div align="center">
-        <img src="<?php echo base_url('assets/frontend/img/downloadapp.png')?>" width="100%" class="img-fluid" alt="">
-        <br>
-        &nbsp;
-        <br>
-        &nbsp;
-        <br>
-        &nbsp;
-        <br>
-        &nbsp;
-        <iframe width="700" height="500" src="https://www.youtube.com/embed/rQgLav_9p7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      
-    </section><!-- End Portfolio Section -->
-   
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -874,16 +395,23 @@
   <script src="<?php echo base_url('assets/frontend/js/main.js')?>"></script>
   <script src="<?php echo base_url('assets/frontend/js/swiper.min.js')?>"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
- 
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script> 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
   
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css"> 
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
   <link rel="stylesheet" href="<?php echo base_url('assets/frontend/up_btn/up_btn.css')?>" />
   <script src="<?php echo base_url('assets/frontend/up_btn/up_btn.js')?>"></script>
   <script type="text/javascript">
+      $('#example').DataTable( {
+            "ajax": "<?php echo base_url(); ?>alquran/get_surah",
+            select: true               
+        });  
       function Notfound(){
         alert('belum ada konten terkait!');
       }
+
+     
       up({
 
       // bottom position
@@ -916,6 +444,7 @@
     
   $(document).ready(function(){
   
+    $('#list_surah').DataTable();
     var radius = 200;
     var fields = $('.itemDot');
     var container = $('.dotCircle');
