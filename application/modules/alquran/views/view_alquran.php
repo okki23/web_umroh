@@ -173,30 +173,22 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          
-          <h3>Alquran </h3>
-          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
-        </div>
-
-         <div class="row">
-          
-         <div class="table-responsive">
-                               <table class="table table-bordered table-striped table-hover js-basic-example" id="example" >
-  
-                                    <thead>
-                                        <tr>
-                                            <th style="width:10%;">No</th> 
-                                            <th style="width:40%;">Surah</th> 
-                                            <th style="width:40%;">Opsi</th> 
-                                        </tr>
-                                    </thead> 
-                                </table> 
-                            </div>
-             
+          <div id="listing">
+          <h3>Alquran </h3> 
+            
+                                <table class="table table-bordered table-striped table-hover js-basic-example" id="example" > 
+                                        <thead>
+                                            <tr>
+                                                <th style="width:10%;">No</th> 
+                                                <th style="width:40%;">Surah</th> 
+                                                <th style="width:40%;">Opsi</th> 
+                                            </tr>
+                                        </thead> 
+                                    </table>  
           </div>
-        </div>
-
-      </div>
+          </div>
+          </div>
+        
     </section><!-- End About Section -->
  
     <!-- ======= Contact Section ======= -->
@@ -403,6 +395,11 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/frontend/up_btn/up_btn.css')?>" />
   <script src="<?php echo base_url('assets/frontend/up_btn/up_btn.js')?>"></script>
   <script type="text/javascript">
+
+      function Pilih(id){
+        // alert(id);
+        $("#listing").slideUp();
+      }
       $('#example').DataTable( {
             "ajax": "<?php echo base_url(); ?>alquran/get_surah",
             select: true               

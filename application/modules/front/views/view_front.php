@@ -147,7 +147,7 @@
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="#"> 
+          <a href="<?php echo base_url('alquran'); ?>"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black; font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Al Quran </span>
           </a>
