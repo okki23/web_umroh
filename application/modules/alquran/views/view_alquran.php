@@ -188,6 +188,10 @@
           </div>
           </div>
           </div>
+
+          <div id = "recite">
+           
+          </div>
         
     </section><!-- End About Section -->
  
@@ -399,6 +403,10 @@
       function Pilih(id){
         // alert(id);
         $("#listing").slideUp();
+        $.get("<?php echo base_url('alquran/recite_quran/'); ?>"+id,function(result){
+          $("#recite").html(result);
+        });
+         
       }
       $('#example').DataTable( {
             "ajax": "<?php echo base_url(); ?>alquran/get_surah",
