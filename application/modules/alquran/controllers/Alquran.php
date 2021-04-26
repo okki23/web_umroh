@@ -32,32 +32,48 @@ class Alquran extends CI_Controller {
 
 		$pre = json_decode($get_surah);
 		$total_ayat = $pre->data->numberOfVerses; 
+	
 		echo "<div class='container'>";
 		echo "<div class='col-lg-12'>";
+		echo "<div align='center' style='font-weight:bold';>";
 		echo "Surah ".$pre->data->name->transliteration->id;
 		echo "<br>";
 		echo "Surah ke".$pre->data->number;
 		// echo $pre->data->tafsir; 
 		echo "<br>";
 		echo $pre->data->numberOfVerses." Ayat";
+		echo "</div>";
+		echo "<div align='justify' style='font-weight:bold';>";
 		echo "<br>";
 		echo $pre->data->tafsir->id;
 		echo "<br>";
+		echo "</div>";
 		echo $pre->data->preBismillah->text->arab;
 		echo "<br>";
 		echo $pre->data->preBismillah->translation->id;
+		 
 		echo "<br>";
-		echo "<hr>";
-		echo "<br>";
-		foreach($pre->data->verses as $val){
-			echo "<div align='right'>";
-			echo "<br>";
-			echo "<div style='font-size:36px;'>" .$val->number->inSurah. " " .$val->text->arab." ".$val->number->inSurah."</div>";
-			echo "<br>"; 
-			echo $val->translation->id;
-			echo "<br>"; 
-			echo "</div>";
-		}
+		echo "<table> 
+				<thead align='center'> 
+					<th> Surah </th>
+					<th> Ayat </th>
+				</thead>
+				<tbody>";
+					foreach($pre->data->verses as $val){
+						echo "<tr style='font-size:26px;'>
+								<td align='right'>".$val->text->arab." <br> ".$val->translation->id." </td>
+								<td align='center'>".$val->number->inSurah." </td>
+							  </tr>";
+
+						// echo "<div align='right'>";
+						// echo "<br>";
+						// echo "<div style='font-size:36px;'>".$val->text->arab."</div>";
+						// echo "<br>"; 
+						// echo $val->translation->id;
+						// echo "<br>"; 
+						// echo "</div>";
+					}
+				echo "</tbody>";
 		echo "</div>";
 		echo "</div>";
 	}
