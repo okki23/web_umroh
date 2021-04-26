@@ -174,23 +174,21 @@
 
         <div class="section-title">
           <div id="listing">
-          <h3>Alquran </h3> 
-            
-                                <table class="table table-bordered table-striped table-hover js-basic-example" id="example" > 
-                                        <thead>
-                                            <tr>
-                                                <th style="width:10%;">No</th> 
-                                                <th style="width:40%;">Surah</th> 
-                                                <th style="width:40%;">Opsi</th> 
-                                            </tr>
-                                        </thead> 
-                                    </table>  
+          <h3>Alquran </h3>  
+              <table class="table table-bordered table-striped table-hover js-basic-example" id="example" > 
+                <thead>
+                  <tr>
+                      <th style="width:10%;">No</th> 
+                      <th style="width:40%;">Surah</th> 
+                      <th style="width:40%;">Opsi</th> 
+                  </tr>
+              </thead> 
+              </table>  
           </div>
           </div>
           </div>
 
-          <div id = "recite">
-           
+          <div id = "recite" style="margin-right:auto; margin-left:auto; font: size 14px;"> 
           </div>
         
     </section><!-- End About Section -->

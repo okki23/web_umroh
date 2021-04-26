@@ -32,6 +32,8 @@ class Alquran extends CI_Controller {
 
 		$pre = json_decode($get_surah);
 		$total_ayat = $pre->data->numberOfVerses; 
+		echo "<div class='container'>";
+		echo "<div class='col-lg-12'>";
 		echo "Surah ".$pre->data->name->transliteration->id;
 		echo "<br>";
 		echo "Surah ke".$pre->data->number;
@@ -48,12 +50,16 @@ class Alquran extends CI_Controller {
 		echo "<hr>";
 		echo "<br>";
 		foreach($pre->data->verses as $val){
+			echo "<div align='right'>";
 			echo "<br>";
-			echo $val->number->inSurah." ".$val->text->arab;
+			echo "<div style='font-size:36px;'>" .$val->number->inSurah. " " .$val->text->arab." ".$val->number->inSurah."</div>";
 			echo "<br>"; 
 			echo $val->translation->id;
 			echo "<br>"; 
+			echo "</div>";
 		}
+		echo "</div>";
+		echo "</div>";
 	}
  
 }
