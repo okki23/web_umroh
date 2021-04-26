@@ -6,10 +6,10 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Front extends CI_Controller {
+class Masjid extends CI_Controller {
  
 	public function index()
 	{
-		$this->load->view('front/view_front');
+		$this->load->view('masjid/view_masjid');
 	}
 }

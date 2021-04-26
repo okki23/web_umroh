@@ -57,7 +57,7 @@
 
       <!-- <h1 class="logo mr-auto"><a href="index.html">BizLand<span>.</span></a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
+      <a href="<?php echo base_url(); ?>" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header"> Beranda</a></li>
@@ -153,13 +153,13 @@
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="#"> 
+          <a href="<?php echo base_url('masjid'); ?>"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black;  font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Masjid </span>
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="#"> 
+          <a href="<?php echo base_url('shalat'); ?>"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black; font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Jadwal Solat </span>
           </a>

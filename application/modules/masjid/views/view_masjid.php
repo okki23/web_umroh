@@ -172,25 +172,12 @@
     <section id="tentang" class="about section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <div id="listing">
-          <h3>Alquran </h3>  
-              <table class="table table-bordered table-striped table-hover js-basic-example" id="example" > 
-                <thead>
-                  <tr>
-                      <th style="width:10%;">No</th> 
-                      <th style="width:40%;">Surah</th> 
-                      <th style="width:40%;">Opsi</th> 
-                  </tr>
-              </thead> 
-              </table>  
-          </div>
-          </div>
-          </div>
-
-          <div id = "recite" style="margin-right:auto; margin-left:auto; font: size 14px;"> 
-          </div>
+        <div class="section-title" style="width:50%;  margin-right:auto; margin-left:auto;" >
         
+          <img src="<?php echo base_url('assets/frontend/images/under_construction.jpg'); ?>" style="width: 100%; height:auto; margin-right:auto; margin-left:auto;">
+         
+          </div>
+      </div> 
     </section><!-- End About Section -->
  
     <!-- ======= Contact Section ======= -->

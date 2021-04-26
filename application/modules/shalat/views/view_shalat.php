@@ -57,7 +57,7 @@
 
       <!-- <h1 class="logo mr-auto"><a href="index.html">BizLand<span>.</span></a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="<?php echo base_url(); ?>" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
+      <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header"> Beranda</a></li>
@@ -153,13 +153,13 @@
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="<?php echo base_url('masjid'); ?>"> 
+          <a href="#"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black;  font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Masjid </span>
           </a>
           </div>
           <div class="col-lg" style="padding-top: 30px;">
-          <a href="<?php echo base_url('shalat'); ?>"> 
+          <a href="#"> 
             <img src="<?php echo base_url('assets/frontend/img/logoumrohku.png')?>" class="float-left">
             <span class="h6 bold" style="float: left; color:black; font-weight: bold;  margin-left: 10px; padding-top: 7px;"> Jadwal Solat </span>
           </a>
@@ -168,29 +168,16 @@
     </div>
   </div>
 </div>
-    <!-- ======= About Section ======= -->
-    <section id="tentang" class="about section-bg">
+       <!-- ======= About Section ======= -->
+       <section id="tentang" class="about section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <div id="listing">
-          <h3>Alquran </h3>  
-              <table class="table table-bordered table-striped table-hover js-basic-example" id="example" > 
-                <thead>
-                  <tr>
-                      <th style="width:10%;">No</th> 
-                      <th style="width:40%;">Surah</th> 
-                      <th style="width:40%;">Opsi</th> 
-                  </tr>
-              </thead> 
-              </table>  
-          </div>
-          </div>
-          </div>
-
-          <div id = "recite" style="margin-right:auto; margin-left:auto; font: size 14px;"> 
-          </div>
+        <div class="section-title" style="width:50%;  margin-right:auto; margin-left:auto;" >
         
+          <img src="<?php echo base_url('assets/frontend/images/under_construction.jpg'); ?>" style="width: 100%; height:auto; margin-right:auto; margin-left:auto;">
+         
+          </div>
+      </div> 
     </section><!-- End About Section -->
  
     <!-- ======= Contact Section ======= -->
