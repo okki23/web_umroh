@@ -61,7 +61,7 @@ class Alquran extends CI_Controller {
 				<tbody>";
 					foreach($pre->data->verses as $val){
 						echo "<tr style='font-size:26px;'>
-								<td align='right'>".$val->text->arab." <br> ".$val->translation->id." </td>
+								<td align='right'>".$val->text->arab." <br> ".$val->translation->id." <br> &nbsp; </td>
 								<td align='center'>".$val->number->inSurah." </td>
 							  </tr>";
 
