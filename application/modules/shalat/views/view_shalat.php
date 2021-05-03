@@ -29,9 +29,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
   <link href="<?php echo base_url('assets/frontend/css/style.css')?>" rel="stylesheet">
   <link href="<?php echo base_url('assets/frontend/css/new_style.css')?>" rel="stylesheet">
-  <link href="<?php echo base_url('assets/frontend/css/custom.css')?>" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <link href="<?php echo base_url('assets/frontend/css/custom.css')?>" rel="stylesheet"> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
   
   <script data-ad-client="ca-pub-7665677534907559" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
@@ -57,7 +60,7 @@
 
       <!-- <h1 class="logo mr-auto"><a href="index.html">BizLand<span>.</span></a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
+      <a href="<?php echo base_url(); ?>" class="logo mr-auto"><img src="<?php echo base_url('assets/frontend/img/logoumrohku_white.png')?>" alt=""></a>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header"> Beranda</a></li>
@@ -171,12 +174,35 @@
        <!-- ======= About Section ======= -->
        <section id="tentang" class="about section-bg">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title" style="width:50%;  margin-right:auto; margin-left:auto;" >
-        
-          <img src="<?php echo base_url('assets/frontend/images/under_construction.jpg'); ?>" style="width: 100%; height:auto; margin-right:auto; margin-left:auto;">
-         
+      <div class="row">
+          <h2>DatePicker</h2>
+        </div>
+        <div class="row">
+              <div class='col-sm-6'>
+                  <div class="form-group">
+                      <div class="input-group date" id="datetimepicker2">
+                      <input id="datepicker" width="276" />
+                      </div>
+                  </div>
+              </div>
+              
+              
+        </div>
+          <!-- <div class="col-lg-6">
+          
+           <select class="js-example-basic-single" name="state"  style="width:50%;" >
+            <option value="AL">Alabama</option>
+              ...
+            <option value="WY">Wyoming</option>
+            </select>
           </div>
+
+          <div class="col-lg-6">
+            <input type="text" id="tanggal" name="tanggal">
+          </div>
+          
+
+          </div> -->
       </div> 
     </section><!-- End About Section -->
  
@@ -375,33 +401,34 @@
   <!-- Template Main JS File -->
   <script src="<?php echo base_url('assets/frontend/js/main.js')?>"></script>
   <script src="<?php echo base_url('assets/frontend/js/swiper.min.js')?>"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script> 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
   
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css"> 
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
   <link rel="stylesheet" href="<?php echo base_url('assets/frontend/up_btn/up_btn.css')?>" />
-  <script src="<?php echo base_url('assets/frontend/up_btn/up_btn.js')?>"></script>
-  <script type="text/javascript">
+  <script src="<?php echo base_url('assets/frontend/up_btn/up_btn.js')?>"></script>  
+  
+ 
+   <!-- select2 -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+ 
+ 
 
-      function Pilih(id){
-        // alert(id);
-        $("#listing").slideUp();
-        $.get("<?php echo base_url('alquran/recite_quran/'); ?>"+id,function(result){
-          $("#recite").html(result);
+  <script type="text/javascript"> 
+ $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
         });
-         
+
+      function GetKota(){
+        var opt = $("#getkota").val();
+        alert('you select '+opt);
       }
       $('#example').DataTable( {
             "ajax": "<?php echo base_url(); ?>alquran/get_surah",
             select: true               
         });  
-      function Notfound(){
-        alert('belum ada konten terkait!');
-      }
-
-     
+      
       up({
 
       // bottom position
@@ -433,7 +460,17 @@
   
     
   $(document).ready(function(){
-  
+    $('.js-example-basic-single').select2();
+    GetListKota();
+    function GetListKota(){
+      $.get('https://api.banghasan.com/sholat/format/json/kota',function(response){
+        var resp = response.kota;
+        var count = resp.length
+        for(var i = 0 ; i < count; i++){ 
+          $("#getkota").append("<option value='"+resp[i].id+"'>"+resp[i].nama+"</option>");
+        }
+      });
+    }
     $('#list_surah').DataTable();
     var radius = 200;
     var fields = $('.itemDot');
